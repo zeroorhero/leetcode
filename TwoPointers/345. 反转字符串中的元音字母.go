@@ -10,7 +10,7 @@ func reverseVowels1(s string) string {
 		if strings.Contains(tem, string(chars[l])) && strings.Contains(tem, string(chars[r])) {
 			chars[l], chars[r] = chars[r], chars[l]
 			// 交换完毕后要进行更新操作
-			l++
+			l = l + 1
 			r--
 		} else if !strings.Contains(tem, string(chars[l])) {
 			l++
