@@ -1,3 +1,7 @@
-func main(){
-  fmt.Println("hello, world")
+package TwoPointers
+
+import "fmt"
+
+func main() {
+	fmt.Println("hello, world")
 }
